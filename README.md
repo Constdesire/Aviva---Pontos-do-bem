@@ -1,24 +1,39 @@
-# Aviva - Pontos do bem
-## Sobre o Projeto
-O Brasil possui inúmeros desafios sociais, e o Terceiro Setor atua de forma essencial na sociedade preenchendo lacunas e chegando onde o poder público muitas vezes não alcança (IPEA, 2018). Apesar da existência de milhares de Organizações Não Governamentais (ONGs) trabalhando em áreas vitais, muitas enfrentam obstáculos severos para se manterem devido à falta de recursos financeiros aliada à baixa digitalização (FGV, 2021). Essa falta de estrutura digital gera pouca visibilidade para os projetos, o que dificulta muito a atração de voluntários e empresas parceiras, impedindo o crescimento dessas instituições.
-Por outro lado, o impacto desse cenário esbarra em uma demanda reprimida: existem muitas pessoas e empresas dispostas a ajudar e investir em responsabilidade social, mas que não sabem por onde começar ou não encontram projetos organizados e confiáveis para apoiar. Diante desse cenário, o **Aviva - Pontos do bem** (documentado em sua base inicial como ConectaBem) surge como uma solução digital inovadora focada em unir ONGs, voluntários e empresas em um único ambiente colaborativo e de fácil acesso. O projeto busca centralizar as necessidades vitais das ONGs, o forte desejo de engajamento dos voluntários e as exigências corporativas de métricas ESG e incentivos fiscais. A iniciativa está fortemente alinhada à Agenda 2030 da ONU (ONU, 2015), com foco central no ODS 17 (fortalecimento de parcerias para o desenvolvimento global), apoiando indiretamente a erradicação da pobreza, saúde, educação e a redução das desigualdades.
+# Aviva - Pontos do Bem
+O Aviva é uma plataforma digital focada em unir Organizações Não Governamentais (ONGs), voluntários e empresas em um único ambiente colaborativo e de fácil acesso. O objetivo do sistema é atuar como um facilitador de responsabilidade social, centralizando e democratizando o acesso a ferramentas de gestão que hoje são fragmentadas ou de alto custo. A criação da rede permitirá maior visibilidade para os projetos sociais, atração inteligente de parceiros e a otimização de tempo e recursos para todos os envolvidos.
+A iniciativa apoia fortemente a Agenda 2030 da ONU, com foco central no Objetivo de Desenvolvimento Sustentável (ODS) 17, que busca o fortalecimento de parcerias e meios de implementação.
 
-## Nossa Tese de Inovação e Diferencial de Mercado
-Ao observar as soluções digitais que existem hoje através de benchmarking, percebe-se que elas são fragmentadas. Se uma empresa quer engajar seus funcionários em ações, usa uma ferramenta; se quer apenas doar dinheiro, usa outra; e a ONG acaba tendo que administrar várias plataformas diferentes ao mesmo tempo.
-Enquanto plataformas globais, como a Benevity, fazem um controle excelente focado no mercado corporativo, elas operam com um custo extremamente caro e voltado apenas para gigantes multinacionais. No cenário nacional, as ferramentas costumam focar em nichos muito específicos, como conectar pessoas a vagas de voluntariado presencial, mas sem um painel independente voltado para o engajamento de grandes empresas. Outras focam exclusivamente no repasse financeiro, deixando a desejar quando o assunto é o voluntariado "mão na massa", ou carecem de ferramentas que orientem o setor corporativo sobre métricas sociais e isenções fiscais.
-O grande diferencial estratégico do Aviva é justamente democratizar e centralizar tudo isso, oferecendo em um único lugar a gestão de voluntários, o repasse de campanhas e a geração de relatórios de impacto para empresas de todos os tamanhos. O sistema oferece o "match" tanto para voluntariado físico quanto digital, um painel de ações para ONGs, além de gerar relatórios ESG e orientação sobre incentivos fiscais para o setor corporativo. Com isso, cria-se um ecossistema único onde a ONG ganha visibilidade, o voluntário encontra propósito e a empresa acessa métricas automáticas sem precisar contratar consultorias externas caríssimas.
-## Arquitetura do Sistema e Tecnologias Utilizadas
-Para que o aplicativo funcione perfeitamente em celulares de forma leve e segura, foram escolhidas tecnologias modernas de mercado. Todo esse processo foca na facilidade de uso (acessibilidade), garantindo que tanto ONGs pequenas quanto grandes empresas consigam navegar pelo painel, cadastrar eventos e analisar seus relatórios de impacto social sem precisar de conhecimentos avançados em tecnologia.
+## Histórico
+A ideia de criar o Aviva  nasceu da observação acadêmica sobre o Terceiro Setor brasileiro no desenvolvimento do nosso Projeto Integrador. A percepção geral foi que, apesar de existirem milhares de ONGs realizando trabalhos vitais, a falta de digitalização e recursos inibe a sobrevivência e o crescimento dessas instituições.
+Notamos que existe uma "demanda reprimida": muitas pessoas e corporações querem ajudar, mas as ferramentas tecnológicas atuais são descentralizadas. Atualmente, o ecossistema exige que se use uma plataforma para mobilizar voluntários, outra para doações financeiras e mais outra para gerar relatórios de transparência. Essa fragmentação gera um esforço duplicado e afasta potenciais parceiros.
 
-A interface visual e a estrutura do app serão criadas com React Native e Node.js. Toda a parte de senhas, cadastros e o banco de dados ficarão seguros na nuvem utilizando o Firebase.
-Para transformar a experiência do usuário e otimizar os resultados, o sistema contará com um motor de recomendação inteligente baseado em Inteligência Artificial. Essa IA atuará como um assistente de parcerias: quando um voluntário ou empresa se cadastrar no app, a IA lerá seus interesses, habilidades (como saber criar sites, cozinhar ou dar aulas) e objetivos de ESG. Em seguida, ela varrerá o banco de dados e enviará notificações com sugestões de "match" perfeito, unindo automaticamente a pessoa certa com a ONG que precisa exatamente daquele tipo de ajuda no momento.
+## Modelo
+Experiências no mercado global, como o software canadense Benevity (referência no setor corporativo), possuem um modelo de controle excelente, porém com custo altíssimo e foco apenas em multinacionais. Ferramentas nacionais como Atados e Ribon cobrem apenas partes isoladas do processo.
+O caminho adotado pelo Aviva é o de **Centralização do Ecossistema**. O nosso diferencial é simplificar essa ponte de ponta a ponta, oferecendo em um único lugar o gerenciamento de campanhas, engajamento prático mão na massa e controle métrico.
 
-## Metodologia de Construção e Progresso
-O trabalho segue os princípios das metodologias ágeis (SOMMERVILLE, 2018), o que significa que o sistema não será construído de forma engessada e unilateral. A equipe trabalhará em ciclos curtos com entregas semanais, construindo pequenas partes do aplicativo, testando com as pessoas para validar a usabilidade e ajustando os erros rapidamente. Para desenhar as telas antes da programação, usa-se o Figma, e para a equipe organizar as linhas de código, o GitHub.
-A eficácia deste método já é percebida durante avaliações em laboratório, onde o tempo médio para localizar uma ação social e se cadastrar foi inferior a dois minutos. Esses resultados reforçam a viabilidade da proposta como solução digital para ampliar o alcance das ONGs e facilitar o engajamento social.
-
+## Formas de Participação
+Os atores que compõem o ecossistema do Aviva interagem sob os seguintes perfis:
+ * **ONGs (Terceiro Setor):** Recebem um painel de ações para cadastramento de eventos, vagas de voluntariado e campanhas de arrecadação, ganhando vitrine e suporte de gestão.
+   
+ * **Voluntários (Pessoas Físicas):** Têm acesso facilitado e ágil (cadastro em menos de 2 minutos) para encontrar causas por geolocalização e "dar match" doando seu tempo ou habilidades específicas.
+   
+ * **Empresas (Setor Privado):** Têm acesso a geração de relatórios de impacto de suas ações (Métricas ESG) e orientação sobre incentivos fiscais para estruturar sua Responsabilidade Social Empresarial de forma independente.
+   
+## Projeto e Plano de Trabalho
+O Aviva é um Projeto Integrador (PI) ideaizado por alunas do curso de Análise e Desenvolvimento de Sistemas (AMS) da FATEC Zona Leste. Como o projeto está em sua fase inicial, o plano de trabalho adota metodologias ágeis e iterativas, com as seguintes etapas:
+ 1. **Fundamentação e Benchmarking:** Mapeamento de concorrentes, análise SWOT e viabilidade (Concluído).
+ 2. **Prototipação e Design (UX/UI):** Desenho das telas no Figma e testes em laboratório (Em Andamento).
+ 3. **Desenvolvimento do MVP:** Construção inicial da infraestrutura de código utilizando versionamento no GitHub.
+ 4. **Lançamento Oficial Inicial:** Previsão de entrada em produção de forma restrita, focando em cadastrar até 50 ONGs pioneiras.
+ 5. **Expansão (Futuro):** Integração com sistemas de pagamento direto e painéis avançados de impacto.
+    
+## Tecnologia e Acesso aos Dados
+Para garantir a facilidade de uso – permitindo que até ONGs com baixo letramento digital utilizem a plataforma de forma fluida nos celulares –, o Aviva emprega uma pilha de tecnologias modernas e leves:
+ * **Front-end & Back-end:** Interface construída com **React Native** e lógica estruturada em **Node.js**.
+ * **Banco de Dados & Nuvem:** Todo o armazenamento, regras de cadastro e segurança operam hospedados via **Firebase**.
+ * **Assistente de Match (IA):** O núcleo inteligente do sistema atuará rastreando os interesses e habilidades declarados pelos voluntários e empresas, cruzando-os com as demandas das ONGs e emitindo notificações dinâmicas de conexão.
+   
 ## Equipe Idealizadora
-Este projeto foi idealizado e desenvolvido através da colaboração das seguintes integrantes:
+Projeto concebido, pesquisado e desenvolvido pelas alunas:
  * Desirée Constantino
  * Isabelle Gomes
  * Nicole Milanez
