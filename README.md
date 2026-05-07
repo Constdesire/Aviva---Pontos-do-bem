@@ -17,7 +17,8 @@ Os atores que compõem o ecossistema do Aviva interagem sob os seguintes perfis:
  * **Voluntários (Pessoas Físicas):** Têm acesso facilitado e ágil (cadastro em menos de 2 minutos) para encontrar causas por geolocalização e "dar match" doando seu tempo ou habilidades específicas.
    
  * **Empresas (Setor Privado):** Têm acesso a geração de relatórios de impacto de suas ações (Métricas ESG) e orientação sobre incentivos fiscais para estruturar sua Responsabilidade Social Empresarial de forma independente.
-   
+
+![Versao 1 wireframe](documentacao/Primeiraversãowireframebasico.png)
 ## Projeto e Plano de Trabalho
 O Aviva é um Projeto Integrador (PI) ideaizado por alunas do curso de Análise e Desenvolvimento de Sistemas (AMS) da FATEC Zona Leste. Como o projeto está em sua fase inicial, o plano de trabalho adota metodologias ágeis e iterativas, com as seguintes etapas:
  1. **Fundamentação e Benchmarking:** Mapeamento de concorrentes, análise SWOT e viabilidade (Concluído).
@@ -31,7 +32,10 @@ Para garantir a facilidade de uso – permitindo que até ONGs com baixo letrame
  * **Front-end & Back-end:** Interface construída com **React Native** e lógica estruturada em **Node.js**.
  * **Banco de Dados & Nuvem:** Todo o armazenamento, regras de cadastro e segurança operam hospedados via **Firebase**.
  * **Assistente de Match (IA):** O núcleo inteligente do sistema atuará rastreando os interesses e habilidades declarados pelos voluntários e empresas, cruzando-os com as demandas das ONGs e emitindo notificações dinâmicas de conexão.
-   
+
+![Diagrama de implantação](documentacao/Diagrama-de-Implantação.png)
+![Diagrama de implementação](documentacao/Implementacao.jpeg)
+
 ## Equipe Idealizadora
 Projeto concebido, pesquisado e desenvolvido pelas alunas:
  * Desirée Constantino
